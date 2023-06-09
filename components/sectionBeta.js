@@ -5,12 +5,7 @@ import Unity, { UnityContext } from "react-unity-webgl";
 
 
 export default () => {
-  const unityContext = new UnityContext({
-    loaderUrl: "./Games/Build/fifi.loader.js",
-    dataUrl: "./Games/Build/fifi.data",
-    frameworkUrl: "./Games/Build/fifi.framework.js",
-    codeUrl: "./Games/Build/fifi.wasm",
-  });
+
   return (
     <>
       <div
@@ -18,22 +13,8 @@ export default () => {
         className="px-4 py-16 h-[auto] lg:h-[auto] bg-gray-100 opacity-95"
       >
         <div className="max-w-screen-lg mx-auto px-4 py-16">
-        <h1 className="max-w-md stroke-alpha mx-auto uppercase font-alpha text-white text-center text-[75px] md:text-[90px] mb-3">
-            Our Game
-          </h1>
-          <Unity
-  style={{
-    width: '100%',
-    height: '70vh',
-    border: '15px solid rgba(32, 115, 174, 0.866)',
-    background: 'green',
-    '@media (maxWidth: 768px)': {
-      height: '43vh',
-      width: '70vw',
-    }
-  }}
-  unityContext={unityContext}
-/>
+        
+   
 <h1 className="max-w-md stroke-alpha mx-auto uppercase font-alpha text-white text-center text-[75px] md:text-[90px] mb-3">
             Roadmap
           </h1>
@@ -43,7 +24,7 @@ export default () => {
           <div className="relative mt-10 mb-28 px-10">
             <img
               className="border-[15px] border-white w-full h-auto rounded-xl"
-              src="/img/section_image.jpeg"
+              src="/img/pingo.gif"
               alt="animation"
             />
             {/* Border - TR */}
