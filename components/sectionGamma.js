@@ -31,53 +31,18 @@ export default () => {
         <div className="max-w-screen-xl mx-auto grid grid-cols-2 lg:grid-cols-2 my-10 gap-y-16">
           {teamList.map((item, index) => {
             return (
-            <div className="relative">
-  <img
-    className="w-full -translate-y-6"
-    src={`/img/team/${teamList[0].img}`}
-    alt=""
-  />
-  <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
-    {teamList[0].nam}
-  </h1>
-  <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
-    {teamList[0].title}
-  </h1>
-</div>
-
-<div className="flex justify-between">
-  <div className="relative">
-    <img
-      className="w-full -translate-y-6"
-      src={`/img/team/${teamList[1].img}`}
-      alt=""
-    />
-    <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
-      {teamList[1].nam}
-    </h1>
-    <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
-      {teamList[1].title}
-    </h1>
-  </div>
-  <div className="relative">
-    <img
-      className="w-full -translate-y-6"
-      src={`/img/team/${teamList[2].img}`}
-      alt=""
-    />
-    <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
-      {teamList[2].nam}
-    </h1>
-    <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
-      {teamList[2].title}
-    </h1>
-  </div>
-</div>
-
+              <div className="relative">
+                <img
+                  className="w-full -translate-y-6"
+                  src={`/img/team/${item.img}`}
+                  alt=""
+                />
+                <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
+                  {item.nam}
+                </h1>
+                <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
+                  {item.title}
+                </h1>
+              </div>
             );
           })}
-        </div>
-      </div>
-    </>
-  );
-};
