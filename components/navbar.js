@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 const TwitterButton = () => {
   return (
     <a
-      href="https://twitter.com/pingoosnft?s=21&t=iQKfglvhAo4sEeFIffrW0w"
+      href="https://twitter.com/PingoosOrd?s=20"
       target="_blank"
       className="text-white bg-blue-500 hover:bg-blue-600 py-1 px-2 rounded-md inline-flex items-center"
       rel="noopener noreferrer"
