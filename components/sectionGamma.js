@@ -5,6 +5,7 @@ export default () => {
   const teamList = [
    { img: "team-4.png", nam: "Coolio", title: "Ceo,Founder" },
     { img: "team-3.png", nam: "Sheriff", title: "Chief Security Officer" },
+      { img: "team-3.png", nam: "Sheriff", title: "Chief Security Officer" },
     
     { img: "team-44.png", nam: "Cookie", title: "Cutest BTC Dev" },
   ];
