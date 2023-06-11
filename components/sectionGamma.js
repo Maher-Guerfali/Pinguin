@@ -29,7 +29,7 @@ export default () => {
           src="/img/border-beta-bottom.png"
           alt=""
         />
-        <div className="max-w-screen-xl mx-auto grid grid-cols-2 lg:grid-cols-2 my-10 gap-y-16">
+        <div className="max-w-screen-xl mx-auto grid grid-cols-2 lg:grid-cols-2 my-10 gap-y-6">
           {teamList.map((item, index) => {
             return (
               <div className="relative">
