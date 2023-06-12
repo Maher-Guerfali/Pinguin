@@ -30,25 +30,42 @@ export default () => {
           src="/img/border-beta-bottom.png"
           alt=""
         />
-        <div className="max-w-screen-xl mx-auto grid grid-cols-2 lg:grid-cols-2 flex-row-reverse my-10 gap-y-6">
-          {teamList.map((item, index) => {
-            return (
-              <div className="relative">
-                <img
-                  className="w-full -translate-y-6"
-                  src={`/img/team/${item.img}`}
-                  alt=""
-                />
-                <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
-                  {item.nam}
-                </h1>
-                <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
-                  {item.title}
-                </h1>
-              </div>
-            );
-          })}
-        </div>
+       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 my-10 gap-y-6">
+  {/* Top Item */}
+  {teamList.slice(0, 1).map((item, index) => (
+    <div className="relative" key={index}>
+      <img
+        className="w-full -translate-y-6"
+        src={`/img/team/${item.img}`}
+        alt=""
+      />
+      <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
+        {item.nam}
+      </h1>
+      <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
+        {item.title}
+      </h1>
+    </div>
+  ))}
+
+  {/* Bottom Items */}
+  {teamList.slice(1).map((item, index) => (
+    <div className="relative" key={index}>
+      <img
+        className="w-full"
+        src={`/img/team/${item.img}`}
+        alt=""
+      />
+      <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
+        {item.nam}
+      </h1>
+      <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
+        {item.title}
+      </h1>
+    </div>
+  ))}
+</div>
+
       </div>
     </>
   );
