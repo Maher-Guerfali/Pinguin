@@ -19,7 +19,7 @@ export default () => {
         </h2>
         <h2 className="max-w-lg mx-auto text-center font-[500] font-ubuntu text-xl">
           Luckily, we are a strong community and we have a plan! The Egloo has
-          been fortified and we are stocked up on Bitcoin, ice cream, and fish
+          been fortified and we are stocked up on rare sats, pizza and fish
           so we can thrive during the apocalypse!
         </h2>
         <div className="relative mt-10 mb-28 px-10">
