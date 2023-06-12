@@ -47,7 +47,8 @@ export default () => {
       </h1>
     </div>
   ))}
-
+  <div className="relative">
+  </div>
   {/* Bottom Items */}
   {teamList.slice(1).map((item, index) => (
     <div className="relative" key={index}>
