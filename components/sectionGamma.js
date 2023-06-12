@@ -3,11 +3,12 @@ import { useState } from "react";
 
 export default () => {
   const teamList = [
-   { img: "team-4.png", nam: "Coolio", title: "Ceo,Founder" },
-    { img: "void", nam: "", title: "" },
+   
+    
       { img: "team-3.png", nam: "Sheriff", title: "Chief Security Officer" },
     
     { img: "team-44.png", nam: "Cookie", title: "Cutest BTC Dev" },
+    { img: "team-4.png", nam: "Coolio", title: "Ceo,Founder" },
   ];
   return (
     <>
@@ -29,7 +30,7 @@ export default () => {
           src="/img/border-beta-bottom.png"
           alt=""
         />
-        <div className="max-w-screen-xl mx-auto grid grid-cols-2 lg:grid-cols-2 my-10 gap-y-6">
+        <div className="max-w-screen-xl mx-auto grid grid-cols-2 lg:grid-cols-2 flex-row-reverse my-10 gap-y-6"">
           {teamList.map((item, index) => {
             return (
               <div className="relative">
