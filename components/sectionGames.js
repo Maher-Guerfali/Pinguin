@@ -6,21 +6,18 @@ import { useState } from "react";
 export default () => {
   const gameList = [
    
-    { img: "team-4.png", nam: "Coolio", title: "Ceo,Founder" },
-      { img: "team-3.png", nam: "Sheriff", title: "Chief Security Officer" },
+    { img: "icey.png", nam: "Icey Bird ", title: "icey" },
+      { img: "pinball.png", nam: "Pinball", title: "pinball" },
     
-    { img: "team-44.png", nam: "Cookie", title: "Cutest BTC Dev" },
     
   ];
   return (
     <>
       <div id="team" className="px-4 py-28 lg:py-64 bg-gamma relative">
         <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-5xl mb-3">
-          Our Team
+          Our Games
         </h1>
-        <h2 className="max-w-lg mx-auto text-white text-center font-ubuntu text-xl">
-          Meet Our Pingoos Team
-        </h2>
+        
         {/* Border - TR */}
         <img
           className="absolute w-full top-0 right-0"
