@@ -35,7 +35,7 @@ export default () => {
     <div className="relative" key={index}>
       <img
         className="w-full -translate-y-6"
-        src={`/img/team/${item.img}`}
+        src={`/games/${item.img}`}
         alt=""
       />
       <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
