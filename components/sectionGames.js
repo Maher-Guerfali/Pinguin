@@ -4,7 +4,14 @@ import { useState } from "react";
 
 
 export default () => {
-  
+  const gameList = [
+   
+    { img: "team-4.png", nam: "Coolio", title: "Ceo,Founder" },
+      { img: "team-3.png", nam: "Sheriff", title: "Chief Security Officer" },
+    
+    { img: "team-44.png", nam: "Cookie", title: "Cutest BTC Dev" },
+    
+  ];
   return (
     <>
       <div id="team" className="px-4 py-28 lg:py-64 bg-gamma relative">
@@ -45,7 +52,7 @@ export default () => {
   <div className="relative">
   </div>
   {/* Bottom Items */}
-  {teamList.slice(1).map((item, index) => (
+  {gameList.slice(1).map((item, index) => (
     <div className="relative" key={index}>
       <img
         className="w-full"
