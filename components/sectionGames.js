@@ -15,19 +15,7 @@ export default () => {
         <h1 className="max-w-md stroke-alpha mx-auto uppercase font-alpha text-white text-center text-[75px] md:text-[90px] mb-3">
             Our Game
           </h1>
-          <Unity
-  style={{
-    width: '100%',
-    height: '70vh',
-    border: '15px solid rgba(32, 115, 174, 0.866)',
-    background: 'green',
-    '@media (maxWidth: 768px)': {
-      height: '43vh',
-      width: '70vw',
-    }
-  }}
-  unityContext={unityContext}
-/>
+          
 <h1 className="max-w-md stroke-alpha mx-auto uppercase font-alpha text-white text-center text-[75px] md:text-[90px] mb-3">
             Our Games
           </h1>
