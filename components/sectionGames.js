@@ -13,7 +13,7 @@ export default () => {
       >
         <div className="max-w-screen-lg mx-auto px-4 py-16">
         <h1 className="max-w-md stroke-alpha mx-auto uppercase font-alpha text-white text-center text-[75px] md:text-[90px] mb-3">
-            Our Game
+           
           </h1>
           
 <h1 className="max-w-md stroke-alpha mx-auto uppercase font-alpha text-white text-center text-[75px] md:text-[90px] mb-3">
