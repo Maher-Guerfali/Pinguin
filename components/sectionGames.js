@@ -7,47 +7,61 @@ export default () => {
   
   return (
     <>
-      <div
-        id="roadmap"
-        className="px-4 py-16 h-[auto] lg:h-[auto] bg-gray-100 opacity-95"
-      >
-        <div className="max-w-screen-lg mx-auto px-4 py-16">
-        <h1 className="max-w-md stroke-alpha mx-auto uppercase font-alpha text-white text-center text-[75px] md:text-[90px] mb-3">
-           
-          </h1>
-          
-<h1 className="max-w-md stroke-alpha mx-auto uppercase font-alpha text-white text-center text-[75px] md:text-[90px] mb-3">
-            Our Games
-          </h1>
-          {/* <h2 className="max-w-lg mx-auto text-center font-ubuntu text-xl">
-            Lorem ipsum dolor sit
-          </h2> */}
-          <div className="relative mt-10 mb-28 px-10">
-            <img
-              className="border-[15px] border-white w-full h-auto rounded-xl"
-              src="/img/section_image.jpeg"
-              alt="animation"
-            />
-            {/* Border - TR */}
-            {/* <img
-              className="absolute top-16 right-[210px] translate-x-1/2 -translate-y-1/2"
-              src="/img/border-alpha-tr.png"
-              alt=""
-            /> */}
-            {/* Border - BL */}
-            <img
-              className="absolute left-[-5rem] bottom-[-10rem] md:-bottom-72 md:-left-40 translate-x-1/2 -translate-y-1/2 h-[13rem] md:h-[auto]"
-              src="/img/border-alpha-bl.png"
-              alt=""
-            />
-            {/* Border - BR */}
-            <img
-              className="absolute right-[7rem] bottom-[-8rem] md:-bottom-48 md:right-36 translate-x-1/2 -translate-y-1/2 h-[10rem] md:h-[auto]"
-              src="/img/border-alpha-br.png"
-              alt=""
-            />
-          </div>
-        </div>
+      <div id="team" className="px-4 py-28 lg:py-64 bg-gamma relative">
+        <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-5xl mb-3">
+          Our Team
+        </h1>
+        <h2 className="max-w-lg mx-auto text-white text-center font-ubuntu text-xl">
+          Meet Our Pingoos Team
+        </h2>
+        {/* Border - TR */}
+        <img
+          className="absolute w-full top-0 right-0"
+          src="/img/border-beta-top.png"
+          alt=""
+        />
+        <img
+          className="absolute w-full bottom-0 right-0"
+          src="/img/border-beta-bottom.png"
+          alt=""
+        />
+       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 my-10 gap-y-6">
+  {/* Top Item */}
+  {teamList.slice(0, 1).map((item, index) => (
+    <div className="relative" key={index}>
+      <img
+        className="w-full -translate-y-6"
+        src={`/img/team/${item.img}`}
+        alt=""
+      />
+      <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
+        Game Name
+      </h1>
+      <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
+        {item.title}
+      </h1>
+    </div>
+  ))}
+  <div className="relative">
+  </div>
+  {/* Bottom Items */}
+  {teamList.slice(1).map((item, index) => (
+    <div className="relative" key={index}>
+      <img
+        className="w-full"
+        src={`/img/team/${item.img}`}
+        alt=""
+      />
+      <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
+        {item.nam}
+      </h1>
+      <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
+        {item.title}
+      </h1>
+    </div>
+  ))}
+</div>
+
       </div>
     </>
   );
