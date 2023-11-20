@@ -36,7 +36,7 @@ export default function Home() {
         </div>
      <div className="bg-alpha relative">
           <div className="sec-divider h-20 w-full absolute top-0 -translate-y-1/2 z-20"></div>
-          <SectionAlpha />
+          
           <SectionGames />
         </div>
         <div className="bg-alpha relative">
