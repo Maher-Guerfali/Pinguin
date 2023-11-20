@@ -31,7 +31,7 @@ export default () => {
         />
        <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 my-10 gap-y-6">
   {/* Top Item */}
-  {teamList.slice(0, 1).map((item, index) => (
+  {gameList.slice(0, 1).map((item, index) => (
     <div className="relative" key={index}>
       <img
         className="w-full -translate-y-6"
