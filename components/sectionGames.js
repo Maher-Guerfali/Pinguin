@@ -14,7 +14,7 @@ export default () => {
   return (
     <>
       <div id="team" className="px-4 py-28 lg:py-64 bg-gamma relative">
-        <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-5xl mb-3">
+        <h1 className="max-w-md mx-auto uppercase font-alpha text-blue text-center text-5xl mb-3">
           Our Games
         </h1>
         
@@ -38,12 +38,8 @@ export default () => {
         src={`/games/${item.img}`}
         alt=""
       />
-      <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
-        Game Name
-      </h1>
-      <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
-        {item.title}
-      </h1>
+      
+      
     </div>
   ))}
   <div className="relative">
@@ -53,15 +49,13 @@ export default () => {
     <div className="relative" key={index}>
       <img
         className="w-full"
-        src={`/img/team/${item.img}`}
+        src={`/games/${item.img}`}
         alt=""
       />
-      <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
+      <h1 className="max-w-md mx-auto uppercase font-alpha text-blue text-center text-3xl">
         {item.nam}
       </h1>
-      <h1 className="max-w-md mx-auto uppercase font-ubuntu text-white text-center text-2xl mb-3">
-        {item.title}
-      </h1>
+      
     </div>
   ))}
 </div>
