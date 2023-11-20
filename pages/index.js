@@ -13,6 +13,7 @@ import SectionAlpha from "../components/sectionAlpha";
 import SectionBeta from "../components/sectionBeta";
 import SectionDelta from "../components/sectionDelta";
 import SectionGamma from "../components/sectionGamma";
+import SectionGames from "../components/sectionGames";
 
 
 
@@ -32,6 +33,11 @@ export default function Home() {
             <HeroDesc />
             <HeroSlider />
           </div>
+        </div>
+     <div className="bg-alpha relative">
+          <div className="sec-divider h-20 w-full absolute top-0 -translate-y-1/2 z-20"></div>
+          <SectionAlpha />
+          <SectionGames />
         </div>
         <div className="bg-alpha relative">
           <div className="sec-divider h-20 w-full absolute top-0 -translate-y-1/2 z-20"></div>
