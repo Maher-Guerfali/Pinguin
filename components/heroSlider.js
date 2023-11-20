@@ -20,7 +20,7 @@ export default () => {
   return (
     <>
      <div className="px-2 md:px-5 lg:px-10 mb-8 flex items-center">
-           <Swiper
+      <Swiper
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -38,9 +38,9 @@ export default () => {
       >
         {silderList.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="relative">
+            <div className="relative flip-x">
               <img
-                className="rounded-tr-[65px] rounded-bl-[65px] border-4 border-dashed p-1.5 transform scaleX(-1)"
+                className="rounded-tr-[65px] rounded-bl-[65px] border-4 border-dashed p-1.5"
                 src={`/img/pingo/${slide}`}
                 alt="slides"
               />
@@ -50,7 +50,7 @@ export default () => {
           </SwiperSlide>
         ))}
       </Swiper>
-     </div>
+    </div>
     </>
   );
 };
