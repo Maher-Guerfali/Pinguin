@@ -82,7 +82,7 @@ export default () => {
             </li>
             <li>
               <a
-                href="https://pingoos-game.vercel.app/"
+                href="https://pingoos.itch.io/"
                 target="_blank"
                 className="block py-2 pl-3 pr-4 text-white  hover:bg-gray-300s md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 transition-all duration-300"
               >
