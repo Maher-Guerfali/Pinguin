@@ -12,7 +12,7 @@ export default () => {
         id="team"
         className="px-4 py-28 lg:py-64 bg-gamma relative"
       >
-        <h1 className="max-w-md mx-auto uppercase font-alpha text-blue text-center text-5xl mb-3">
+        <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-5xl mb-3">
           Our Games
         </h1>
 
@@ -36,7 +36,7 @@ export default () => {
                   src={`/games/${item.img}`}
                   alt=""
                 />
-                <h1 className="max-w-md mx-auto uppercase font-alpha text-blue text-center text-3xl">
+                <h1 className="max-w-md mx-auto uppercase font-alpha text-white text-center text-3xl">
                   {item.nam}
                 </h1>
               </a>
