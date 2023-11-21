@@ -55,8 +55,6 @@ export default () => {
           </svg>
         </button>
         
-            </div>
-          </Link>
         <div
           className={`${
             isNavbarOpen ? "block" : "hidden"
