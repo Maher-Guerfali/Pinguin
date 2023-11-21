@@ -32,7 +32,7 @@ export default () => {
             <Link href={item.link} key={index}>
               <a className="relative border border-gray-300 rounded p-4 transition duration-300 hover:border-blue hover:shadow-md">
                 <img
-                  className="w-full rounded"
+                  className="w-full rounded overflow-hidden"
                   src={`/games/${item.img}`}
                   alt=""
                 />
