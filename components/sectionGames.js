@@ -1,10 +1,9 @@
 import Link from "next/link";
-import { useState } from "react";
 
 export default () => {
   const gameList = [
-    { img: "flying.png", nam: "Icey Bird", title: "icey", link: "https://www.google.com" },
-    { img: "pingoosball.png", nam: "Pinball", title: "pinball", link: "https://www.facebook.com" },
+    { img: "playfly.png", nam: "Icey Bird", title: "icey", link: "https://pingoos.itch.io/icey-bird" },
+    { img: "playpin.png", nam: "Pinball", title: "pinball", link: "https://pingoos.itch.io/pingoos-pinball" },
   ];
 
   return (
@@ -33,7 +32,7 @@ export default () => {
             <Link href={item.link} key={index}>
               <a className="relative border border-gray-300 rounded p-4 transition duration-300 hover:border-blue hover:shadow-md">
                 <img
-                  className="w-full"
+                  className="w-full rounded"
                   src={`/games/${item.img}`}
                   alt=""
                 />
