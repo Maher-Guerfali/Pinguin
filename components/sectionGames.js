@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default () => {
   const gameList = [
-    { img: "playfly.png", nam: "Icey Bird", title: "icey", link: "https://pingoos.itch.io/icey-bird" },
+    { img: "playfly2.png", nam: "Icey Bird", title: "icey", link: "https://pingoos.itch.io/icey-bird" },
     { img: "playpin2.png", nam: "Pinball", title: "pinball", link: "https://pingoos.itch.io/pingoos-pinball" },
   ];
 
