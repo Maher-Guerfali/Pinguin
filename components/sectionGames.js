@@ -28,7 +28,7 @@ export default () => {
           src="/img/border-beta-bottom.png"
           alt=""
         />
-        <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 my-10 gap-y-6">
+        <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-3 my-10 gap-y-6">
           {gameList.map((item, index) => (
             <Link href={item.link} key={index}>
               <a className="relative border border-gray-300 rounded p-4 transition duration-300 hover:border-blue hover:shadow-md">
