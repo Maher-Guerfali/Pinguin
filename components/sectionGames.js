@@ -4,6 +4,7 @@ export default () => {
   const gameList = [
     { img: "playfly2.png", nam: "Icey Bird", title: "icey", link: "https://pingoos.itch.io/icey-bird" },
     { img: "playpin.png", nam: "Pingball", title: "pingball", link: "https://pingoos.itch.io/pingoos-pingball" },
+     { img: "playslide.png", nam: "Slidy", title: "Slidy", link: "https://pingoos.itch.io/slidoos" },
   ];
 
   return (
