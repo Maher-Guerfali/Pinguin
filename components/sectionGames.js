@@ -5,6 +5,7 @@ export default () => {
     { img: "playfly2.png", nam: "Icey Bird", title: "icey", link: "https://pingoos.itch.io/icey-bird" },
     { img: "playpin.png", nam: "Pingball", title: "pingball", link: "https://pingoos.itch.io/pingoos-pingball" },
      { img: "slidy.png", nam: "Slidy", title: "Slidy", link: "https://pingoos.itch.io/slidoos" },
+     { img: "snowjet.png", nam: "SnowJet", title: "SnowJet", link: "https://pingoos.itch.io/jetpack-pingoos" },
   ];
 
   return (
